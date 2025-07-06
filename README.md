@@ -150,4 +150,4 @@ graph TD
 
 ---
 
-> **🎯 Master RAG**: From basic retrieval to advanced fusion techniques, this repository provides everything needed to build production-ready RAG systems.
+> **🎯 Master RAG**: From basic retrieval to advanced fusion techniques, this repository provides everything needed to build Development-ready RAG systems.

@@ -4,16 +4,43 @@
 
 A complete hands-on guide to RAG implementations, from basic concepts to advanced techniques. This repository contains practical notebooks demonstrating various RAG approaches, retrieval strategies, and optimization methods.
 
-## 📊 RAG Architecture Flow
+## 📊 RAG Architecture Flowchart
 
-Based on the provided flowchart, here's how RAG works:
+Based on the provided flowchart, here's the complete RAG system architecture:
 
-```
-📄 DATA → 🔪 CHUNKING → 🧠 EMBEDDING → 💾 DATABASE
-                                           ↓
-👤 USER → 🔍 SEMANTIC SEARCH → 🎯 RETRIEVAL → 🤖 LLM
-   ↓                           ↓               ↓
-🔎 QUERY → 📊 RANKED RESULTS → 🔄 RERANKED → 💬 RESPONSE
+```mermaid
+graph TD
+    A[📄 DATA] --> B[🔪 CHUNK 1]
+    A --> C[🔪 CHUNK 2] 
+    A --> D[🔪 CHUNK 3]
+    
+    B --> E[🧠 EMBEDDING 1]
+    C --> F[🧠 EMBEDDING 2]
+    D --> G[🧠 EMBEDDING 3]
+    
+    E --> H[💾 DATABASE<br/>Vector Store]
+    F --> H
+    G --> H
+    
+    I[👤 USER] --> J[🔎 QUERY]
+    J --> K[🧠 EMBEDDING<br/>Query]
+    
+    I -.->|Generation| L[🔍 SEMANTIC SEARCH]
+    K --> L
+    H --> L
+    
+    L --> M[🎯 RETRIEVAL]
+    M --> N[📊 RANKED RESULTS]
+    N --> O[🔄 RERANKED RESULTS]
+    
+    O --> P[🤖 LLM<br/>Query+Prompt+Context]
+    P --> Q[💬 RESPONSE]
+    
+    style A fill:#e1f5fe
+    style H fill:#f3e5f5
+    style I fill:#fff3e0
+    style P fill:#e8f5e8
+    style Q fill:#fce4ec
 ```
 
 ### Core RAG Components:

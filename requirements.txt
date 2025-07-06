@@ -1,0 +1,17 @@
+langchain
+langchain_community
+langchain_openai
+langchain_groq
+langchain_google_genai
+langchain_huggingface
+
+llama_index
+llama-index-embeddings-huggingface
+llama-index-llms-groq
+llama-index-vector-stores-qdrant
+llama-index-llms-google-genai
+
+faiss-cpu
+chromadb
+sentence_transformers
+python-dotenv

@@ -114,6 +114,38 @@ graph TD
 |----------|----------|----------|
 | **Merger & Reranking** | `MergerRetriever_And_Reranking.ipynb` | Strategic document ordering and context reorganization |
 
+### 🖼️ [MultiModal RAG](./MultiModal%20RAG/)
+**Process and understand multiple data types including text, images, charts, and diagrams**
+
+| Technique | Notebook | Innovation |
+|-----------|----------|------------|
+| **MultiModal Processing** | `MultiModal_RAG(IMG+TexT).ipynb` | CLIP-based unified embeddings for text and images, cross-modal retrieval |
+
+### 🤖 [Agentic RAG](./Agentic%20RAG/)
+**Intelligent agent-based RAG systems with autonomous decision making**
+
+| Method | Notebook | Capability |
+|--------|----------|------------|
+| **Agentic RAG** | `Agentic_RAG.ipynb` | Autonomous agent-based retrieval and generation |
+| **LangGraph RAG** | `Rag_with_langgraph.ipynb` | Graph-based workflow orchestration for complex RAG |
+| **Routed RAG** | `Routed_RAG_With_LLM_Router.ipynb` | LLM-powered routing for dynamic retrieval strategies |
+
+### 🔬 [Advanced RAG](./Advanced%20RAG/)
+**Cutting-edge RAG techniques for specialized applications**
+
+| Technique | Notebook | Advanced Feature |
+|-----------|----------|------------------|
+| **Agentic RAG** | `Agentic_RAG.ipynb` | Agent-based autonomous reasoning and retrieval |
+| **Corrective RAG (CRAG)** | `Corrective_RAG_(CRAG).ipynb` | Self-correcting retrieval with confidence scoring |
+
+### 📊 [RAG Evaluation](./RAG%20Evaluation/)
+**Comprehensive evaluation frameworks for RAG system performance**
+
+| Framework | Notebook | Evaluation Focus |
+|-----------|----------|------------------|
+| **RAG Evaluation** | `RAG_Evaluation.ipynb` | Custom evaluation metrics and benchmarking |
+| **RAGAs Evaluation** | `RAGAs_Evaluation.ipynb` | Automated evaluation using RAGAs framework |
+
 ## 🔧 Key Technologies Used
 
 - **🦜 LangChain**: RAG framework and components
@@ -122,23 +154,33 @@ graph TD
 - **🔍 FAISS**: Efficient similarity search
 - **🌐 OpenAI**: Embeddings and language models
 - **⚡ Cohere**: Professional reranking services
+- **🖼️ CLIP**: Multimodal embeddings for text and images
+- **🔄 LangGraph**: Graph-based workflow orchestration
+- **⚖️ RAGAs**: Automated RAG evaluation framework
+- **🧠 Groq**: High-performance LLM inference
 
 ## 🚀 Getting Started
 
 1. **Clone the repository**
 2. **Install dependencies**: `pip install -r requirements.txt`
 3. **Start with Basic RAG** to understand fundamentals
-4. **Explore Advanced Techniques** based on your use case
+4. **Explore Retriever Techniques** for advanced retrieval strategies
 5. **Implement ReRanking** for better accuracy
 6. **Try Hybrid Approaches** for production systems
+7. **Explore MultiModal RAG** for documents with images and text
+8. **Advance to Agentic RAG** for autonomous intelligent systems
+9. **Use RAG Evaluation** to benchmark and optimize performance
 
 ## 💡 Best Practices
 
 - **🎯 Start Simple**: Begin with basic RAG before advanced techniques
-- **📊 Measure Performance**: Use relevant metrics for your domain  
+- **📊 Measure Performance**: Use RAG evaluation frameworks for your domain  
 - **🔄 Iterate**: Combine multiple techniques for optimal results
 - **⚡ Optimize**: Balance accuracy with speed for production
 - **📚 Domain-Specific**: Adapt techniques to your specific use case
+- **🖼️ Consider Modality**: Use multimodal RAG for documents with visual content
+- **🤖 Evaluate Autonomy**: Implement agentic approaches for complex decision-making
+- **🔧 Continuous Improvement**: Use corrective RAG for self-improving systems
 
 ## 🎯 Use Cases Covered
 
@@ -147,6 +189,10 @@ graph TD
 - **🏢 Enterprise**: Knowledge management systems
 - **🔬 Research**: Multi-document analysis and synthesis
 - **💬 Chatbots**: Context-aware conversational AI
+- **🖼️ Multimodal Analysis**: Documents with text, images, and charts
+- **🤖 Autonomous Systems**: Agent-based intelligent retrieval
+- **📊 Performance Evaluation**: RAG system benchmarking and optimization
+- **🔄 Self-Correcting Systems**: Adaptive and corrective RAG implementations
 
 ---
 

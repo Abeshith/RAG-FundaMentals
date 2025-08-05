@@ -171,16 +171,6 @@ graph TD
 8. **Advance to Agentic RAG** for autonomous intelligent systems
 9. **Use RAG Evaluation** to benchmark and optimize performance
 
-## 💡 Best Practices
-
-- **🎯 Start Simple**: Begin with basic RAG before advanced techniques
-- **📊 Measure Performance**: Use RAG evaluation frameworks for your domain  
-- **🔄 Iterate**: Combine multiple techniques for optimal results
-- **⚡ Optimize**: Balance accuracy with speed for production
-- **📚 Domain-Specific**: Adapt techniques to your specific use case
-- **🖼️ Consider Modality**: Use multimodal RAG for documents with visual content
-- **🤖 Evaluate Autonomy**: Implement agentic approaches for complex decision-making
-- **🔧 Continuous Improvement**: Use corrective RAG for self-improving systems
 
 ## 🎯 Use Cases Covered
 

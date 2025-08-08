@@ -138,7 +138,28 @@ graph TD
 | **Agentic RAG** | `Agentic_RAG.ipynb` | Agent-based autonomous reasoning and retrieval |
 | **Corrective RAG (CRAG)** | `Corrective_RAG_(CRAG).ipynb` | Self-correcting retrieval with confidence scoring |
 
-### 📊 [RAG Evaluation](./RAG%20Evaluation/)
+### �‍💼 [Supervisor Agent RAG](./Supervior%20Agent%20RAG/)
+**Intelligent routing across multiple knowledge domains with domain-specific vector stores**
+
+| Technique | Notebook | Capability |
+|-----------|----------|------------|
+| **Supervisor Agent** | `SuperVisor_RAG_Agent.ipynb` | Multi-domain routing with automatic classification and caching |
+
+### 💾 [Structured Query RAG](./Structured%20Query%20RAG/)
+**Text-to-SQL RAG systems for natural language querying of structured databases**
+
+| Technique | Notebook | Capability |
+|-----------|----------|------------|
+| **Structured Retrieval** | `Structured_Retrieval_RAG.ipynb` | Schema-aware natural language to SQL with result interpretation |
+
+### ⏱️ [Dynamic RAG](./Dynamic%20RAG/)
+**Self-updating knowledge bases with version control and real-time updates**
+
+| Technique | Notebook | Capability |
+|-----------|----------|------------|
+| **Dynamic Knowledge Update** | `Dynamic_Knowledge_Update_RAG.ipynb` | Version-tracked document updates with timestamp awareness |
+
+### �📊 [RAG Evaluation](./RAG%20Evaluation/)
 **Comprehensive evaluation frameworks for RAG system performance**
 
 | Framework | Notebook | Evaluation Focus |
@@ -158,6 +179,9 @@ graph TD
 - **🔄 LangGraph**: Graph-based workflow orchestration
 - **⚖️ RAGAs**: Automated RAG evaluation framework
 - **🧠 Groq**: High-performance LLM inference
+- **📝 Sentence Transformers**: Lightweight embedding models
+- **🗃️ SQLite**: Structured database for Text-to-SQL RAG
+- **📊 Tavily**: Web search API for real-time information
 
 ## 🚀 Getting Started
 
@@ -183,6 +207,9 @@ graph TD
 - **🤖 Autonomous Systems**: Agent-based intelligent retrieval
 - **📊 Performance Evaluation**: RAG system benchmarking and optimization
 - **🔄 Self-Correcting Systems**: Adaptive and corrective RAG implementations
+- **💾 Structured Data**: Natural language querying of databases with Text-to-SQL
+- **🔄 Dynamic Knowledge**: Self-updating, version-controlled knowledge bases
+- **🧠 Multi-Domain Routing**: Intelligent classification and retrieval across different knowledge domains
 
 ---
 

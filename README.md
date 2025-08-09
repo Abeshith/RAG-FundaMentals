@@ -6,7 +6,7 @@ A complete hands-on guide to RAG implementations, from basic concepts to advance
 
 ## 📊 RAG Architecture Flowchart
 
-Based on the provided flowchart, here's the complete RAG system architecture:
+Here's the complete RAG system architecture:
 
 ```mermaid
 graph TD
@@ -36,12 +36,25 @@ graph TD
     O --> P[🤖 LLM<br/>Query+Prompt+Context]
     P --> Q[💬 RESPONSE]
     
-    style A fill:#e1f5fe
-    style H fill:#f3e5f5
-    style I fill:#fff3e0
-    style P fill:#e8f5e8
-    style Q fill:#fce4ec
+    style A fill:#000000,color:#ffffff
+    style B fill:#000000,color:#ffffff
+    style C fill:#000000,color:#ffffff
+    style D fill:#000000,color:#ffffff
+    style E fill:#000000,color:#ffffff
+    style F fill:#000000,color:#ffffff
+    style G fill:#000000,color:#ffffff
+    style H fill:#000000,color:#ffffff
+    style I fill:#000000,color:#ffffff
+    style J fill:#000000,color:#ffffff
+    style K fill:#000000,color:#ffffff
+    style L fill:#000000,color:#ffffff
+    style M fill:#000000,color:#ffffff
+    style N fill:#000000,color:#ffffff
+    style O fill:#000000,color:#ffffff
+    style P fill:#000000,color:#ffffff
+    style Q fill:#000000,color:#ffffff
 ```
+
 
 ### Core RAG Components:
 1. **📄 Data Processing**: Documents are split into manageable chunks
@@ -61,11 +74,18 @@ graph TD
 
 ## 📁 Repository Structure
 
+<style>
+  th {
+    background-color: black !important;
+    color: white !important;
+  }
+</style>
+
 ### 🔰 [Basic RAG](./Basic%20Rag/)
 **Foundation techniques for RAG implementation**
 
 | Notebook | Purpose | Key Techniques |
-|----------|---------|----------------|
+|:--------:|:-------:|:--------------:|
 | `basic_rag.ipynb` | Core RAG pipeline | Vector embeddings, semantic search, prompt engineering |
 | `document_rag.ipynb` | PDF document processing | Local knowledge base, metadata handling |
 | `url_rag.ipynb` | Web content RAG | Real-time retrieval, dynamic knowledge updates |
@@ -74,7 +94,7 @@ graph TD
 **Advanced retrieval strategies beyond basic semantic search**
 
 | Technique | Notebook | Innovation |
-|-----------|----------|------------|
+|:--------:|:-------:|:--------------:|
 | **Contextual Compression** | `Contextual_Compression_Retriever.ipynb` | Compresses retrieved docs to extract only relevant portions |
 | **HyDE** | `Hypothetical_Document_Embedding_(HyDE).ipynb` | Generates hypothetical answers to improve retrieval accuracy |
 | **Multi-Hop Retrieval** | `MultiHop_Query_Step_by_Step_Retrieval.ipynb` | Step-by-step retrieval for complex queries |
@@ -86,7 +106,7 @@ graph TD
 **Optimize retrieved document ordering for better LLM performance**
 
 | Method | Notebook | Advantage |
-|--------|----------|-----------|
+|:--------:|:-------:|:--------------:|
 | **BM25 Rerank** | `bm25_rerank_rag.ipynb` | Statistical keyword-based relevance scoring |
 | **Cohere Rerank** | `cohere_rerank.ipynb` | State-of-the-art neural reranking API |
 | **Cross-Encoder** | `cross_encoder_rerank.ipynb` | Joint query-document encoding for precise relevance |
@@ -96,7 +116,7 @@ graph TD
 **Combine multiple search methodologies for superior performance**
 
 | Technique | Notebook | Combines |
-|-----------|----------|----------|
+|:--------:|:-------:|:--------------:|
 | **Cosine Similarity** | `cosine.ipynb` | Vector similarity mathematics and optimization |
 | **Hybrid Search** | `hybridsearch-rag.ipynb` | Semantic + keyword search with score fusion algorithms |
 
@@ -104,28 +124,28 @@ graph TD
 **Fuse multiple retrieval methods for comprehensive results**
 
 | Method | Notebook | Fusion Strategy |
-|--------|----------|-----------------|
+|:--------:|:-------:|:--------------:|
 | **Reciprocal Rank Fusion** | `ReciProcal_Rank_Fusion.ipynb` | Combines rankings from multiple retrievers using RRF algorithm |
 
 ### 🎯 [Lost In Middle Problem](./Lost%20In%20Middle%20Rag%20Problem/)
 **Solve positional bias where important info gets overlooked in middle context**
 
 | Solution | Notebook | Approach |
-|----------|----------|----------|
+|:--------:|:-------:|:--------------:|
 | **Merger & Reranking** | `MergerRetriever_And_Reranking.ipynb` | Strategic document ordering and context reorganization |
 
 ### 🖼️ [MultiModal RAG](./MultiModal%20RAG/)
 **Process and understand multiple data types including text, images, charts, and diagrams**
 
 | Technique | Notebook | Innovation |
-|-----------|----------|------------|
+|:--------:|:-------:|:--------------:|
 | **MultiModal Processing** | `MultiModal_RAG(IMG+TexT).ipynb` | CLIP-based unified embeddings for text and images, cross-modal retrieval |
 
 ### 🤖 [Agentic RAG](./Agentic%20RAG/)
 **Intelligent agent-based RAG systems with autonomous decision making**
 
 | Method | Notebook | Capability |
-|--------|----------|------------|
+|:--------:|:-------:|:--------------:|
 | **Agentic RAG** | `Agentic_RAG.ipynb` | Autonomous agent-based retrieval and generation |
 | **LangGraph RAG** | `Rag_with_langgraph.ipynb` | Graph-based workflow orchestration for complex RAG |
 | **Routed RAG** | `Routed_RAG_With_LLM_Router.ipynb` | LLM-powered routing for dynamic retrieval strategies |
@@ -134,36 +154,44 @@ graph TD
 **Cutting-edge RAG techniques for specialized applications**
 
 | Technique | Notebook | Advanced Feature |
-|-----------|----------|------------------|
+|:--------:|:-------:|:--------------:|
 | **Agentic RAG** | `Agentic_RAG.ipynb` | Agent-based autonomous reasoning and retrieval |
 | **Corrective RAG (CRAG)** | `Corrective_RAG_(CRAG).ipynb` | Self-correcting retrieval with confidence scoring |
 
-### �‍💼 [Supervisor Agent RAG](./Supervior%20Agent%20RAG/)
+### 👨‍💼 [Supervisor Agent RAG](./Supervior%20Agent%20RAG/)
 **Intelligent routing across multiple knowledge domains with domain-specific vector stores**
 
 | Technique | Notebook | Capability |
-|-----------|----------|------------|
+|:--------:|:-------:|:--------------:|
 | **Supervisor Agent** | `SuperVisor_RAG_Agent.ipynb` | Multi-domain routing with automatic classification and caching |
 
 ### 💾 [Structured Query RAG](./Structured%20Query%20RAG/)
 **Text-to-SQL RAG systems for natural language querying of structured databases**
 
 | Technique | Notebook | Capability |
-|-----------|----------|------------|
+|:--------:|:-------:|:--------------:|
 | **Structured Retrieval** | `Structured_Retrieval_RAG.ipynb` | Schema-aware natural language to SQL with result interpretation |
 
 ### ⏱️ [Dynamic RAG](./Dynamic%20RAG/)
 **Self-updating knowledge bases with version control and real-time updates**
 
 | Technique | Notebook | Capability |
-|-----------|----------|------------|
+|:--------:|:-------:|:--------------:|
 | **Dynamic Knowledge Update** | `Dynamic_Knowledge_Update_RAG.ipynb` | Version-tracked document updates with timestamp awareness |
 
-### �📊 [RAG Evaluation](./RAG%20Evaluation/)
+### 🕸️ [Graph RAG](./Graph%20RAG/)
+**Knowledge graph-enhanced retrieval leveraging entity relationships and community structures**
+
+| Technique | Notebook | Capability |
+|:--------:|:-------:|:--------------:|
+| **Basic Graph RAG** | `Graph_RAG.ipynb` | Entity extraction and document-entity graph construction |
+| **Hybrid Search Graph RAG** | `Hybrid_Search_RAG.ipynb` | Community detection and advanced graph traversal techniques |
+
+### 📊 [RAG Evaluation](./RAG%20Evaluation/)
 **Comprehensive evaluation frameworks for RAG system performance**
 
 | Framework | Notebook | Evaluation Focus |
-|-----------|----------|------------------|
+|:--------:|:-------:|:--------------:|
 | **RAG Evaluation** | `RAG_Evaluation.ipynb` | Custom evaluation metrics and benchmarking |
 | **RAGAs Evaluation** | `RAGAs_Evaluation.ipynb` | Automated evaluation using RAGAs framework |
 
@@ -182,6 +210,8 @@ graph TD
 - **📝 Sentence Transformers**: Lightweight embedding models
 - **🗃️ SQLite**: Structured database for Text-to-SQL RAG
 - **📊 Tavily**: Web search API for real-time information
+- **🔍 spaCy**: Named entity recognition and NLP processing
+- **🕸️ NetworkX**: Graph creation and analysis for knowledge graphs
 
 ## 🚀 Getting Started
 
@@ -210,6 +240,7 @@ graph TD
 - **💾 Structured Data**: Natural language querying of databases with Text-to-SQL
 - **🔄 Dynamic Knowledge**: Self-updating, version-controlled knowledge bases
 - **🧠 Multi-Domain Routing**: Intelligent classification and retrieval across different knowledge domains
+- **🕸️ Knowledge Graphs**: Entity relationship-enhanced retrieval with graph structures
 
 ---
 

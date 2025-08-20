@@ -155,8 +155,10 @@ graph TD
 
 | Technique | Notebook | Advanced Feature |
 |:--------:|:-------:|:--------------:|
-| **Agentic RAG** | `Agentic_RAG.ipynb` | Agent-based autonomous reasoning and retrieval |
-| **Corrective RAG (CRAG)** | `Corrective_RAG_(CRAG).ipynb` | Self-correcting retrieval with confidence scoring |
+| **Agentic RAG** | `Agentic_RAG.ipynb` | Agent-based autonomous reasoning with query rewriting |
+| **Corrective RAG (CRAG)** | `Corrective_RAG_(CRAG).ipynb` | Self-correcting retrieval with web search fallback |
+| **MultiModal Agent RAG** | `MultiModal_Agent_RAG.ipynb` | ArXiv papers and image analysis with academic citations |
+| **RAG Swarm Agent** | `RAG_Swarm_Agent.ipynb` | Multi-domain expert agents with smart routing |
 
 ### 👨‍💼 [Supervisor Agent RAG](./Supervior%20Agent%20RAG/)
 **Intelligent routing across multiple knowledge domains with domain-specific vector stores**

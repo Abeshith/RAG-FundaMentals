@@ -147,6 +147,7 @@ graph TD
 | Method | Notebook | Capability |
 |:--------:|:-------:|:--------------:|
 | **Agentic RAG** | `Agentic_RAG.ipynb` | Autonomous agent-based retrieval and generation |
+| **Memory RAG** | `RAG_Agent_WIth_Memory.ipynb` | Conversation history tracking and contextual responses |
 | **LangGraph RAG** | `Rag_with_langgraph.ipynb` | Graph-based workflow orchestration for complex RAG |
 | **Routed RAG** | `Routed_RAG_With_LLM_Router.ipynb` | LLM-powered routing for dynamic retrieval strategies |
 
@@ -156,7 +157,7 @@ graph TD
 | Technique | Notebook | Advanced Feature |
 |:--------:|:-------:|:--------------:|
 | **Agentic RAG** | `Agentic_RAG.ipynb` | Agent-based autonomous reasoning with query rewriting |
-| **Corrective RAG (CRAG)** | `Corrective_RAG_(CRAG).ipynb` | Self-correcting retrieval with web search fallback |
+| **Corrective RAG (CRAG)** | `Corrective_RAG_(CRAGgi).ipynb` | Self-correcting retrieval with web search fallback |
 | **MultiModal Agent RAG** | `MultiModal_Agent_RAG.ipynb` | ArXiv papers and image analysis with academic citations |
 | **RAG Swarm Agent** | `RAG_Swarm_Agent.ipynb` | Multi-domain expert agents with smart routing |
 

@@ -1,0 +1,9 @@
+groq:
+  model: "openai/gpt-oss-120b"
+  temperature: 0.1
+
+agents:
+  - name: "general_agent"
+    description: "Answers general questions using documents"
+  - name: "web_agent" 
+    description: "Searches web for current information"
